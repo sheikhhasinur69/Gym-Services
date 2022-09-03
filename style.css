@@ -70,8 +70,95 @@
 }
 
 .banner-right img{
-    /* width: 100%; */
+    width: 100%;
 }
 .banner-left{
     width: 100%;
+}
+
+.look-section{
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title-two{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-one{
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: .8ms;
+}
+.card-one:hover{
+    border: 1px solid red;
+    margin-top: -20px;
+    transition: .8ms;
+}
+
+.gym-icon {
+    width: 50px;
+}
+
+/* ABout Section */
+
+.about-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.about-left{
+    width: 700px;
+    padding: 50px;
+    
+}
+.about-right{
+    width: 700px;
+    padding: 50px;
+    
+    
+}
+.workout-image{
+    display: flex;
+    margin-top: 50px;
+}
+
+.workout-image img{
+    width: 350px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+
+.btn-text {
+    text-decoration: none;
+    color: white;
+}
+/* Workout section */
+.workout-container{
+    width: 650px;
+    height: 150px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
 }
